@@ -27,7 +27,7 @@ const createAnchor = (text) => {
     anchor.setAttribute('href', 'https://github.com/tmboxrucker');
 
     const image = document.createElement('img');
-    image.src = `images/${text.toLowerCase().replace(/\s/g, '')}.png`;
+    image.src = `./images/${text.toLowerCase().replace(/\s/g, '')}.png`;
     image.alt = text;
 
     anchor.appendChild(image);
