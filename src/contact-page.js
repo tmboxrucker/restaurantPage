@@ -5,7 +5,6 @@ const createContactPage = () => {
     const social = document.createElement('div');
     social.classList.add('socialMediaHolder');
 
-    social.appendChild(createAnchor('twitter'));
     social.appendChild(createAnchor('instagram'));
 
     contact.appendChild(createForm());
@@ -24,7 +23,7 @@ const createParagraph = (text) => {
 const createAnchor = (text) => {
     const anchor = document.createElement('a');
     anchor.classList.add(text);
-    anchor.setAttribute('href', 'https://github.com/tmboxrucker');
+    anchor.setAttribute('href', 'https://instagram.com/munchinsons');
 
     const image = document.createElement('img');
     image.src = `./images/${text.toLowerCase().replace(/\s/g, '')}.png`;
