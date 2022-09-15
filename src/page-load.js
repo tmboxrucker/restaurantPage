@@ -30,7 +30,7 @@ const createNav = () => {
     contactElement.classList.add(`nav`);
     
     homeElement.innerHTML = 'Home';
-    menuElement.innerHTML = 'Menu';
+    menuElement.innerHTML = 'Dishes';
     contactElement.innerHTML = 'Contact';
 
     homeElement.addEventListener("click", (e) => {
